@@ -118,4 +118,10 @@ a:hover{
 .block{
     height: fit-content !important;
 }
-
+@media only screen and (max-width: 768px) {
+    .blocks{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+}
